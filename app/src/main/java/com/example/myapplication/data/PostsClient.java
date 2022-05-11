@@ -13,6 +13,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class PostsClient {
+    //instead of object
     private static final String BASE_URL = "http://jsonplaceholder.typicode.com/";
     private PostInterface postInterface;
     private static PostsClient INSTANCE;
